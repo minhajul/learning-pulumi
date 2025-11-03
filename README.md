@@ -33,19 +33,7 @@ git clone [https://github.com/minhajul/learning-pulumi.git](https://github.com/m
 cd learning-pulumi
 ```
 
-Change to a specific project folder. Pulumi projects use standard language package managers. Apply the Pulumi configuration to provision the resources on AWS:
-
-```bash
-pulumi up
-```
-
-Pulumi will show you a preview and prompt for confirmation. Select yes to proceed.
-
-Once done, destroy the resources if you no longer need them:
-
-```bash
-pulumi destroy
-```
+Change to a specific project folder. Follow the project specific `readme.md` to provision the resources on AWS:
 
 ### Usage
 
