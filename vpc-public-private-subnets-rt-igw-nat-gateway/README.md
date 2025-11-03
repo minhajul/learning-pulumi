@@ -60,7 +60,10 @@ Go to the AWS Management Console and navigate to the VPC, Subnet, Internet Gatew
 that the resources have been created as expected.
 You can see the resource map in the VPC to check the connection between the resources.
 
-### Conclusion
+### Destroy
 
-By following these steps, you will have set up a VPC with one public subnet, one private subnet, a public route table, a
-private route table, an Internet Gateway, and a NAT Gateway using Pulumi and AWS CLI.
+If you want to destroy pulumi resources run below command:
+```pulumi destroy```
+
+If you want to completely remove the stack, run below command:
+```pulumi stack rm dev```

@@ -31,8 +31,8 @@ Follow the prompts to set up your project.
 
 ### Create the Pulumi Program
 
-Open the `__main__.py` file from your project directory. This is where you'll define your AWS infrastructure using
-Python code.
+Copy the `__main__.py` file in your project directory. This is where you will write the code to define your AWS
+infrastructure.
 
 ### Deploy the Pulumi Stack
 
@@ -47,29 +47,10 @@ Review the proposed changes carefully. Pulumi will show a preview of the resourc
 - **Preview:** Displays the resources to be created.
 - **Confirmation:** Type "yes" to proceed with the deployment.
 
-### Tear Down the Deployment
+### Destroy
 
-To destroy the pulumi stack, navigate to your project directory:
+If you want to destroy pulumi resources run below command:
+```pulumi destroy```
 
-```bash 
-cd setup-vpc-in-aws
-```
-
-Run the destroy command:
-
-```bash
-pulumi destroy
-```
-
-Confirm the destruction by typing "yes" when prompted.
-
-If you no longer need the stack, run below command to remove it:
-
-```bash
-pulumi stack rm dev
-```
-
-### Conclusion
-
-We have successfully set up a VPC with one public subnet, a public route table, and an Internet Gateway
-using Pulumi and AWS CLI.
+If you want to completely remove the stack, run below command:
+```pulumi stack rm dev```
