@@ -19,9 +19,7 @@ aws configure
 
 ### Set Up a Pulumi Project
 
-**Initialize a New Pulumi Project:**
-
-We will here use `pulumi` `python`. Run the following command to create a new Pulumi project:
+Create a new directory for your project and navigate into it and run the following command to initiate and create a new Pulumi project:
 
 ```bash
 pulumi new aws-python

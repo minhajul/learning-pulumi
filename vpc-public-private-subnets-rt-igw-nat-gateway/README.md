@@ -10,12 +10,6 @@ private subnet. Specifically, you will:
 - **Create Public and Private Route Tables**
 - **Create a NAT Gateway**
 
-### Overview
-
-We will have a VPC with public and private subnets. The public subnet will have direct Internet access, while the
-private subnet will have outbound Internet access through a NAT Gateway. This setup is essential for securing resources
-while maintaining necessary Internet connectivity.
-
 ### Configure AWS CLI
 
 Open your terminal and run the following command to configure your AWS CLI with your credentials:
@@ -26,9 +20,8 @@ aws configure
 
 ### Set Up a Pulumi Project
 
-**Initialize a New Pulumi Project:**
-
-We will here use `pulumi` `python`. Run the following command to create a new Pulumi project:
+Create a new directory for your project and navigate into it and run the following command to initiate and create a new
+Pulumi project:
 
 ```bash
 pulumi new aws-python
